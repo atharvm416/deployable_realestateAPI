@@ -28,7 +28,8 @@ WORKDIR /app
 
 # Expose the port Kestrel listens on. Render typically injects a PORT env var.
 # Your application should be configured to listen on http://0.0.0.0:$PORT
-EXPOSE 8080 # This is a common default. If your Kestrel is on 80, use 80.
+# This is a common default. If your Kestrel is on 80, use 80.
+EXPOSE 8080 
 
 # Copy the published output from the 'publish' stage
 COPY --from=publish /app/publish .
