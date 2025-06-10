@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Binaries
+**/bin/
+**/obj/
+**/publish/
+artifacts/
+
+# Azure Tools
+.azure/
+
+# Rider
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Local Test Results
+TestResults/
+*.trx
+
+# NPM dependencies
+node_modules/
+
+# Other
+*.log
+*.bak
+*.tmp
